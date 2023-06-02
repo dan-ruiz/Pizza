@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo-header {
+    align-items: center;
+    display: flex;
+}
+
+.nombre-logo {
+    font-weight: 700;
+    line-height: 28.13px;
+    padding-left: 10px;
+    size: 24px;
+}
+
+.pizza {
+    color: #39B24A;
+}
+
+.and {
+    color: #FFFFFF;
+}
+
+.front {
+    color: #FC200C;
+}
+
+.nav-header {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/* Main */
+
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.container-left {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+}
+
+.title-left {
+    color: #FC200C;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+}
+
+.comprando {
+    color: #FFFFFF;
+}
+
+.container-right {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.4;
+    justify-content: space-around;
+}
+
+.title-right {
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: center;
+}
+
+.list-pizza {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-list {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    list-style: none;
+    padding-right: 180px;
+    position: absolute;
+}
+
+.list {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    padding-top: 35px;
+}
+
+.list-item {
+    padding-bottom: 5px;
+}
+
+/* Footer */
+
+footer {
+    align-items: center;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-footer {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+.nav-footer > a {
+    padding-bottom: 7px;
+}
+
+.logo-footer {
+    align-items: center;
+    display: flex;
+}
+
